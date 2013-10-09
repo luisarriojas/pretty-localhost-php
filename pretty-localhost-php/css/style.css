@@ -1,0 +1,113 @@
+/*
+Pretty Localhost PHP
+Copyright (C) 2013 Luis Enrique Arriojas Catalini
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wallpaper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url('../img/wood.jpg');
+    background-size: cover;
+}
+
+#window {
+    width: 300px;
+    height: auto;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+#header {
+    width: 270px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #9ea0a6;
+    color: #4c4f55;
+    font-size: 1em;
+    font-weight: bold;
+    /* fallback */
+    background-color: #b1b4bd;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e9ec), to(#b1b4bd));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #e5e9ec, #b1b4bd);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #e5e9ec, #b1b4bd);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #e5e9ec, #b1b4bd);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #e5e9ec, #b1b4bd);
+}
+
+#links {
+    width: 270px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #c5c8ce;
+    background-color: #e3e6ed;
+}
+
+#links a {
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    width: 270px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+    color: #4c4e54;
+    background-color: #d4d7dd;
+}
+
+#credit {
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-size: 0.94em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#credit a {
+    text-decoration: underline;
+    color: white;
+}
+
+#credit a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
